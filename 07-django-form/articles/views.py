@@ -62,7 +62,7 @@ def create(request):
     context = {
         'form' : form,
     }
-    return render(request,'articles/new.html',context)
+    return render(request,'articles/create.html',context)
     
 
 def delete(request, pk):
